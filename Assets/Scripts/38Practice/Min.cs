@@ -18,9 +18,9 @@ namespace Practice
             for (int i = 0; i < numbers.Length; i++)
             {
                 //최소값과 배열의 값을 순서대로 크기 비교
-                if(numbers[i] < minValue)
+                if (numbers[i] < minValue)
                 {
-                    minValue = numbers[i];  //두수를 비교하여 작으면 최소값에 저장
+                    minValue = numbers[i];  //두수를 비교하여 작으면 최소값에 저장 
                 }
             }
 
